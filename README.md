@@ -17,7 +17,7 @@
   
 <a name="git_firebaseLogin"><h3>FirebaseModules Klasörü</h3></a>
 <ul>
-  <li color:blue><b>getCurrentUser() fonksiyonu</b>
+  <li style="color:blue"><b>getCurrentUser() fonksiyonu</b>
     <ul><li><b>Giriş yapmış olan geçerli kullanıcıyı çekebilir.UID'sini elde edebilirisiniz.</b></li></ul></li>
    <li><b>createNewUser() fonksiyonu</b>
     <ul><li><b>Email ve Şifre bilgisi göndererek yeni kullanıcı kayıt edebilirsiniz.</b></li></ul></li>
