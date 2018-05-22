@@ -1,8 +1,13 @@
 # KaskProjesi Bilgilendirme Dosyası
 
-<h3>Proje içerisindeki sınıflar</h3>
+<h3>Proje İçerisindeki Klasörler</h3>
 <ul>
-  <li><a href=""<b>FirebaseLoginModule.class</b></a></li>
-  <li><a href=""<b>FirebaseDatabaseModule.class</b></a></li>
+  <li><a href="#git_firebaseModules"<b>FirebaseModules Klasörü</b></a></li>
+</ul>  
+
+<h3>FirebaseModules Klasörü</h3>
+<ul>
+  <li><a href="#git_firebaseLogin"<b>FirebaseLoginModule.class</b></a></li>
+  <li><a href="#git_firebaseDatabase"<b>FirebaseDatabaseModule.class</b></a></li>
 </ul>  
 
