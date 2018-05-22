@@ -8,7 +8,7 @@
 <a name="git_firebaseModules"><h3>FirebaseModules Klasörü</h3></a>
 <ul>
    <li><a href="#git_firebaseBilgi"<b>Başlamadan önemli bilgi!</b></a></li>
-   <li><a href="#git_firebaseBagimliliklar"><b>Sınıfların Bağımlılıkları (Gradle dependencies)</b></a></li>
+   <li><a href="#git_firebaseBagimliliklar"<b>Sınıfların Bağımlılıkları (Gradle dependencies) </b></a></li>
   <li><a href="#git_firebaseLogin"<b>FirebaseLoginModule.class</b></a></li>
   <li><a href="#git_firebaseDatabase"<b>FirebaseDatabaseModule.class</b></a></li>
 </ul>  
