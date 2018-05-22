@@ -1,2 +1,4 @@
-# KaskProjesi
-50 güne bitmesi planlanan kask projesinin demosunun kodları
+# KaskProjesi Bilgilendirme Dosyası
+
+<h3>Proje içerisindeki sınıflar</h3>
+
