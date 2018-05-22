@@ -12,5 +12,6 @@
   <li><a href="#git_firebaseDatabase"<b>FirebaseDatabaseModule.class</b></a></li>
 </ul>  
 
-<a name="git_firebaseBilgi"><h3>ASenkron Probleminin Çözümü</h3></a>
+<a name="git_firebaseBilgi"><h3>Asenkron Probleminin Çözümü</h3></a>
+<b>Sınıfları incelediğinizde bütün fonksiyonların void olduğunu farkediceksiniz.Veritabanı işlemleri asenkron çalıştığı için bir fonksiyonu kullanırken size düşen (şayet geriye bir değer döndürmesini istiyorsanız) ilk olarak o fonksiyonun aldığı parametreler kısmına bu fonksiyonu çağırıcağınız sınıfın nesnesini ve referansını ilave etmeli daha sonra işlem sonlandığında ( Örneğin OnSucces() fonksiyonu çalıştığında) referansını gönderdiğmiz sınıfı kullanarak view kısmında istediğiniz değişiklikleri yapan bir fonksiyonu çağırıp ona istediğiniz geri dönüş değerini döndürebilirsiniz.</b>
 
