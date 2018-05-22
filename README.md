@@ -32,8 +32,8 @@
 <ul>
   <li><b>push_userInformations() fonksiyonu</b>
     <ul><li><b>Kullanıcının kişisel bilgilerini veritabanında ilgili alana kaydeder.Aldığı parametreler: uid,ad,soyad,dogum_tarihi,cinsiyet,resim_link,kucuk_resim_link olmak üzere hepsi "String" idir.</b></li></ul></li>
-   <li><b>createNewUser() fonksiyonu</b>
-    <ul><li><b>Email ve Şifre bilgisi göndererek yeni kullanıcı kayıt edebilirsiniz.</b></li></ul></li>
+   <li><b> push_userHealthInformations() fonksiyonu</b>
+    <ul><li><b>Kişinin sağlık bilgilerini veritabanında ilgili alana kaydeder.Aldığı parametreler: uid,kan_grubu,onemli_saglik_bilgileri olmak üzere hepsi String idir.</b></li></ul></li>
    <li><b>logIn() fonksiyonu</b>
     <ul><li><b>Email ve Şifre bilgisi göndererek üye girişi işlemi gerçekleştirebilirsiniz.</b></li></ul></li>
     <li><b>logOut() fonksiyonu</b>
