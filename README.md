@@ -17,7 +17,8 @@
   
 <a name="git_firebaseLogin"><h3>FirebaseModules Klasörü</h3></a>
 <ul>
-  <li><b>getCurrentUser() fonksiyonu</b><li><b>test</b></li></li>
+  <li><b>getCurrentUser() fonksiyonu</b>
+    <ul><li><b>test</b></li></ul></li>
   
   <li><a href="#git_firebaseLogin"<b>FirebaseLoginModule.class</b></a></li>
   <li><a href="#git_firebaseDatabase"<b>FirebaseDatabaseModule.class</b></a></li>
