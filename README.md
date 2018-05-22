@@ -18,12 +18,12 @@
 <a name="git_firebaseLogin"><h3>FirebaseModules Klasörü</h3></a>
 <ul>
   <li><b style="color:blue;">getCurrentUser() fonksiyonu</b>
-    <ul><li><b>Giriş yapmış olan geçerli kullanıcıyı çekebilir.UID'sini elde edebilirisiniz.</b></li></ul></li>
+    <ul><li><b>Giriş yapmış olan geçerli kullanıcıyı çekebilir.UID'sini elde edebilirsiniz.</b></li></ul></li>
    <li><b>createNewUser() fonksiyonu</b>
     <ul><li><b>Email ve Şifre bilgisi göndererek yeni kullanıcı kayıt edebilirsiniz.</b></li></ul></li>
    <li><b>logIn() fonksiyonu</b>
     <ul><li><b>Email ve Şifre bilgisi göndererek üye girişi işlemi gerçekleştirebilirsiniz.</b></li></ul></li>
     <li><b>logOut() fonksiyonu</b>
-    <ul><li><b>Hali hazırda bir kullanıcının giriş yapmış olduğundan eminseniz sunucu sisteminden çıkış işlemini  gerçekleştirebilirsiniz.</b></li></ul></li>
+    <ul><li><b>Hali hazırda bir kullanıcının giriş yapmış olduğundan eminseniz sunucu sisteminden çıkış işlemini gerçekleştirebilirsiniz.</b></li></ul></li>
 </ul>  
 
