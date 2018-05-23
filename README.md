@@ -81,7 +81,7 @@
     <ul><li><b>Sunucudaki tüm kullanıcı sayısını döndürür.Hiç parametre almaz.Dikkat bu fonksiyon geriye değer döndürmesi kesinlikle gerektiğinden ilk baştaki </b><a href="#git_firebaseBilgi"<b>"Asenkron Probleminin Çözümü"</b></a><b> incelemeniz gerekebilir.</b></li></ul></li>
     
 </ul>
-<a name="git_facebookModules"><h3>FacebookbaseModules Klasörü</h3></a>
+<a name="git_facebookModules"><h3>FacebookModules Klasörü</h3></a>
 <ul>
    <li><a href="#git_facebookBagimliliklar"<b>Sınıfların Bağımlılıkları (Gradle dependencies) </b></a></li>
   <li><a href="#git_facebokCallBack"<b>FacebookCallBack.class</b></a></li>
