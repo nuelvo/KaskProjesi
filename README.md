@@ -34,8 +34,8 @@
     <ul><li><b>Kullanıcının kişisel bilgilerini veritabanında ilgili alana kaydeder.Aldığı parametreler: uid,ad,soyad,dogum_tarihi,cinsiyet,resim_link,kucuk_resim_link olmak üzere hepsi "String" idir.</b></li></ul></li>
    <li><b> push_userHealthInformations() fonksiyonu</b>
     <ul><li><b>Kişinin sağlık bilgilerini veritabanında ilgili alana kaydeder.Aldığı parametreler: uid,kan_grubu,onemli_saglik_bilgileri olmak üzere hepsi String idir.</b></li></ul></li>
-   <li><b>logIn() fonksiyonu</b>
-    <ul><li><b>Email ve Şifre bilgisi göndererek üye girişi işlemi gerçekleştirebilirsiniz.</b></li></ul></li>
+   <li><b>get_userHealthInformations() fonksiyonu</b>
+    <ul><li><b>Kişinin sağlık bilgilerini veritabanından çeker.Aldığı parametreler:uid ( kişinin benzersiz user id değeri) Dikkat bu fonksiyon geriye değer döndürmesi kesinlikle gerektiğinden ilk baştaki </b><a href="#git_firebaseBilg"<b>"Başlamadan Önemli Kısmını"</b></a><b> incelemeniz gerekebilir.</b></li></ul></li>
     <li><b>logOut() fonksiyonu</b>
     <ul><li><b>Hali hazırda bir kullanıcının giriş yapmış olduğundan eminseniz sunucu sisteminden çıkış işlemini gerçekleştirebilirsiniz.</b></li></ul></li>
 </ul>  
