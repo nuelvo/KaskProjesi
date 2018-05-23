@@ -61,7 +61,7 @@
     <ul><li><b>Arkadaşlık isteği işlemi iptal edildiğinde veritabanının ilgili alanlarını siler.Aldığı parametreler:
       gonderen_kisi_uid ve gonderilen_kisi_uid olmak üzere hepsi String idir.</b></li></ul></li>
       <li><b>accept_friend_request() fonksiyonu</b>
-    <ul><li><b>Arkadaşlık isteği işlemi kabul edildiğinde veritabanının ilgili alanlarında gerekli işlemleri yapar.</b><a href="https://trelloattachments.s3.amazonaws.com/5afc790a37224ba8664efab9/5afc7c69780ce7c4ca18052c/0bed93bcec57ab0de4c4cd4812698fe2/nuelvo_veritabani.pdf"<b>(Detaylı bilgi için veritabanı yapısını gösteren pdf dosyasını inceleyiniz)</b></a><b>Aldığı parametreler:
+    <ul><li><b>Arkadaşlık isteği işlemi kabul edildiğinde veritabanının ilgili alanlarında gerekli işlemleri yapar.</b><a href="https://drive.google.com/open?id=1G623sNkfz6zT_ehYAmAtICOb4JFyeLry"<b>(Detaylı bilgi için veritabanı yapısını gösteren pdf dosyasını inceleyiniz)</b></a><b>Aldığı parametreler:
       gonderen_kisi_uid ve gonderilen_kisi_uid olmak üzere hepsi String idir.</b></li></ul></li>
     
 </ul>  
