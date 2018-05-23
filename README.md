@@ -63,6 +63,8 @@
       <li><b>accept_friend_request() fonksiyonu</b>
     <ul><li><b>Arkadaşlık isteği işlemi kabul edildiğinde veritabanının ilgili alanlarında gerekli işlemleri yapar.</b><a href="https://drive.google.com/open?id=1G623sNkfz6zT_ehYAmAtICOb4JFyeLry"<b>(Detaylı bilgi için veritabanı yapısını gösteren pdf dosyasını inceleyiniz)</b></a><b>Aldığı parametreler:
       gonderen_kisi_uid ve gonderilen_kisi_uid olmak üzere hepsi String idir.</b></li></ul></li>
+      <li><b> get_request_feature() fonksiyonu</b>
+    <ul><li><b>Kişilerin arkadaşlıklarına ait bilgileri veritabanından çeker(İstek gitti,İstek geldi veya Arkadaşlar).Aldığı parametreler:gonderen_kisi_uid,gonderilen_kisi_uid olmak üzere hepsi String idir.Dikkat bu fonksiyon geriye değer döndürmesi kesinlikle gerektiğinden ilk baştaki </b><a href="#git_firebaseBilgi"<b>"Asenkron Probleminin Çözümü"</b></a><b> incelemeniz gerekebilir.</b></li></ul></li>
     
 </ul>  
 
