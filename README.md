@@ -100,6 +100,6 @@
 <b>Gerekli bilgileri çeken sınıf FacebookCallBack sınıfından implement edilerek hazırlanmıştır.MainActivity örneğinde olduğu gibi bu sınıf Facebook LoginButton nesnesine registerCallBack() fonksiyonu ile eklenmelidir.</b>
 
 <a name="git_facebookMainActivity"><h3>MainActivity.class Sınıfı</h3></a>
-<b>Gerekli View işlemlerinin yapıldığı sınıftır.Bilgileri CallBack sınıfı ile çekilir.Gerekli bilgileri facebook sunucularından çekildikten sonra kendi yazdığımız updateUI() fonksiyonu yardımı ile View'ımıza aktarılır.Not: onActivityResult() kısmı çok önemlidir her aktivitinin hazır fonksiyonudur onu exerek ( Override ) ederek örnekteki bir satır kodu yazmanız gerekmektedir. </b>
+<b>Gerekli View işlemlerinin yapıldığı sınıftır.Bilgiler CallBack sınıfı ile çekilir.Gerekli bilgiler facebook sunucularından çekildikten sonra kendi yazdığımız updateUI() fonksiyonu yardımı ile View'ımıza aktarılır.Not: onActivityResult() kısmı çok önemlidir her aktivitinin hazır fonksiyonudur onu exerek ( Override ) ederek örnekteki bir satır kodu yazmanız gerekmektedir. </b>
 
 
