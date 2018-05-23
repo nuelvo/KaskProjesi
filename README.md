@@ -52,6 +52,8 @@
     <ul><li><b>Kişinin tüm ekipmanlarına ait bilgileri veritabanından çeker.Aldığı parametreler:uid ( kişinin benzersiz user id değeri) Dikkat bu fonksiyon geriye değer döndürmesi kesinlikle gerektiğinden ilk baştaki </b><a href="#git_firebaseBilgi"<b>"Asenkron Probleminin Çözümü"</b></a><b> incelemeniz gerekebilir.</b></li></ul></li>
      <li><b> update_KmValueForUser() fonksiyonu</b>
     <ul><li><b>Kişiye ait toplam yapılmış KM değerini veritabanında ilgili alanda günceler.Aldığı parametreler: uid,km olmak üzere hepsi String idir.</b></li></ul></li>
+    <li><b> upload_profilePicture() fonksiyonu</b>
+    <ul><li><b>Kişiye ait resimi Storage kısmına yükler ve veritabanında kişinin ilgili alanlarına resim linklerini günceller.Aldığı parametreler: String olarak uid ve Uri nesnesi olarak resultUri idir.</b></li></ul></li>
     
 </ul>  
 
