@@ -27,7 +27,7 @@
   <li>classpath 'com.google.gms:google-services:3.1.1' ( Gradle Project )</li>
 </ol> 
   
-<a name="git_firebaseLogin"><h3>FirebaseDatabaseModule.class Fonksiyonlarının Bilgileri</h3></a>
+<a name="git_firebaseLogin"><h3>FirebaseLoginModule.class Fonksiyonlarının Bilgileri</h3></a>
 <ul>
   <li><b>getCurrentUser() fonksiyonu</b>
     <ul><li><b>Giriş yapmış olan geçerli kullanıcıyı çekebilir.UID'sini elde edebilirsiniz.</b></li></ul></li>
@@ -39,7 +39,7 @@
     <ul><li><b>Hali hazırda bir kullanıcının giriş yapmış olduğundan eminseniz sunucu sisteminden çıkış işlemini gerçekleştirebilirsiniz.</b></li></ul></li>
 </ul>  
 
-<a name="git_firebaseDatabase"><h3>FirebaseLoginModule.class Fonksiyonlarının Bilgileri</h3></a>
+<a name="git_firebaseDatabase"><h3>FirebaseDatabaseModule.class Fonksiyonlarının Bilgileri</h3></a>
 <ul>
   <li><b>push_userInformations() fonksiyonu</b>
     <ul><li><b>Kullanıcının kişisel bilgilerini veritabanında ilgili alana kaydeder.Aldığı parametreler: uid,ad,soyad,dogum_tarihi,cinsiyet,resim_link,kucuk_resim_link olmak üzere hepsi "String" idir.</b></li></ul></li>
