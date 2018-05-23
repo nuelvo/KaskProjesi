@@ -15,8 +15,11 @@
 
 <a name="git_firebaseBilgi"><h3>Asenkron Probleminin Çözümü</h3></a>
 <b>Sınıfları incelediğinizde bütün fonksiyonların void olduğunu farkediceksiniz.Veritabanı işlemleri asenkron çalıştığı için bir fonksiyonu kullanırken size düşen (şayet geriye bir değer döndürmesini istiyorsanız) ilk olarak o fonksiyonun aldığı parametreler kısmına bu fonksiyonu çağırıcağınız sınıfın nesnesini ve referansını ilave etmeli daha sonra işlem sonlandığında ( Örneğin OnSucces() fonksiyonu çalıştığında) referansını gönderdiğimiz sınıfı kullanarak view kısmında istediğiniz değişiklikleri yapan bir fonksiyonu çağırıp ona istediğiniz geri dönüş değerini döndürebilirsiniz.(Örneğin veri çekme işlemi sonlandığında MainActivity'nin updateUI(hashMap_referans) fonksiyonunu çağırıp ona HashMap<String> ile tüm kullanıcı verilerini gönderebilirim.</b>
+
+<a name="git_firebaseBagimliliklar"><h3>FirebaseModules Klasörü Sınıflarının Bağımlılıkları</h3></a>
+<b>a\nb</b>
   
-<a name="git_firebaseLogin"><h3>FirebaseLoginModule.class Fonksiyonlarının Bilgileri</h3></a>
+<a name="git_firebaseLogin"><h3>FirebaseDatabaseModule.class Fonksiyonlarının Bilgileri</h3></a>
 <ul>
   <li><b>getCurrentUser() fonksiyonu</b>
     <ul><li><b>Giriş yapmış olan geçerli kullanıcıyı çekebilir.UID'sini elde edebilirsiniz.</b></li></ul></li>
