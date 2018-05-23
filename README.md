@@ -42,5 +42,7 @@
     <ul><li><b>Kişinin yakınlarına ait bilgileri veritabanında ilgili alana kaydeder.Aldığı parametreler: uid,ad,soyad,gsm,email olmak üzere hepsi String idir.</b></li></ul></li>
 <li><b>get_allFamilyInformations() fonksiyonu</b>
     <ul><li><b>Kişinin tüm yakınlarına ait bilgileri veritabanından çeker.Aldığı parametreler:uid ( kişinin benzersiz user id değeri) Dikkat bu fonksiyon geriye değer döndürmesi kesinlikle gerektiğinden ilk baştaki </b><a href="#git_firebaseBilgi"<b>"Asenkron Probleminin Çözümü"</b></a><b> incelemeniz gerekebilir.</b></li></ul></li>
+    <li><b> push_vehiclesInformations() fonksiyonu</b>
+    <ul><li><b>Kişinin araçlarına ait bilgileri veritabanında ilgili alana kaydeder.Aldığı parametreler: uid,marka,model,arac_toplam_km,secili_arac olmak üzere hepsi String idir.</b></li></ul></li>
 </ul>  
 
