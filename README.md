@@ -3,6 +3,7 @@
 <h3>Proje İçerisindeki Klasörler</h3>
 <ul>
   <li><a href="#git_firebaseModules"<b>FirebaseModules Klasörü</b></a></li>
+  <li><a href="#git_facebookModules"<b>FacebookModules Klasörü</b></a></li>
 </ul>  
 
 <a name="git_firebaseModules"><h3>FirebaseModules Klasörü</h3></a>
@@ -79,5 +80,26 @@
      <li><b> get_count_of_childrens_from_users() fonksiyonu</b>
     <ul><li><b>Sunucudaki tüm kullanıcı sayısını döndürür.Hiç parametre almaz.Dikkat bu fonksiyon geriye değer döndürmesi kesinlikle gerektiğinden ilk baştaki </b><a href="#git_firebaseBilgi"<b>"Asenkron Probleminin Çözümü"</b></a><b> incelemeniz gerekebilir.</b></li></ul></li>
     
-</ul>  
+</ul>
+<a name="git_facebookModules"><h3>FacebookbaseModules Klasörü</h3></a>
+<ul>
+   <li><a href="#git_facebookBagimliliklar"<b>Sınıfların Bağımlılıkları (Gradle dependencies) </b></a></li>
+  <li><a href="#git_facebokCallBack"<b>FacebookCallBack.class</b></a></li>
+  <li><a href="#git_facebookMainActivity"<b>MainActivity.class</b></a></li>
+</ul>
+
+
+<a name="git_facebookBagimliliklar"><h3>FacebookModules Klasörü Sınıflarının Bağımlılıkları</h3></a>
+<ol>
+  <li>implementation 'com.facebook.android:facebook-android-sdk:4.28.0'</li>
+  <li>implementation 'com.squareup.picasso:picasso:2.5.2'</li>
+  <li>classpath 'com.google.gms:google-services:3.1.1' ( Gradle Project )</li>
+</ol> 
+
+<a name="git_facebokCallBack"><h3>FacebookCallBackManager.class Sınıfı</h3></a>
+<b>Gerekli bilgileri çeken sınıf FacebookCallBack sınıfından implement edilerek hazırlanmıştır.MainActivity örneğinde olduğu gibi bu sınıfı Facebook LoginButton nesnesine registerCallBack() fonksiyonu ile eklenmelidir.</b>
+
+<a name="git_facebookMainActivity"><h3>MainActivity.class Sınıfı</h3></a>
+<b>Gerekli View işlemlerinin yapıldığı sınıftır.Bilgileri CallBack sınıfı ile çekilir.Gerekli bilgileri facebook sunucularından çekildikten sonra kendi yazdığımız updateUI() fonksiyonu yardımı ile View'ımıza aktarılır.Not: onActivityResult() kısmı çok önemlidir her aktivitinin hazır fonksiyonudur onu exerek ( Override ) ederek örnekteki bir satır kodu yazmanız gerekmektedir. </b>
+
 
