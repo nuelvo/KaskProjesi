@@ -17,7 +17,15 @@
 <b>Sınıfları incelediğinizde bütün fonksiyonların void olduğunu farkediceksiniz.Veritabanı işlemleri asenkron çalıştığı için bir fonksiyonu kullanırken size düşen (şayet geriye bir değer döndürmesini istiyorsanız) ilk olarak o fonksiyonun aldığı parametreler kısmına bu fonksiyonu çağırıcağınız sınıfın nesnesini ve referansını ilave etmeli daha sonra işlem sonlandığında ( Örneğin OnSucces() fonksiyonu çalıştığında) referansını gönderdiğimiz sınıfı kullanarak view kısmında istediğiniz değişiklikleri yapan bir fonksiyonu çağırıp ona istediğiniz geri dönüş değerini döndürebilirsiniz.(Örneğin veri çekme işlemi sonlandığında MainActivity'nin updateUI(hashMap_referans) fonksiyonunu çağırıp ona HashMap<String> ile tüm kullanıcı verilerini gönderebilirim.</b>
 
 <a name="git_firebaseBagimliliklar"><h3>FirebaseModules Klasörü Sınıflarının Bağımlılıkları</h3></a>
-<b>a\nb</b>
+<ol>
+  <li>implementation 'com.google.firebase:firebase-database:11.8.0'</li>
+  <li>implementation 'com.google.firebase:firebase-storage:11.8.0'</li>
+  <li>implementation 'com.google.firebase:firebase-auth:11.8.0'</li>
+  <li>implementation 'com.google.firebase:firebase-messaging:11.8.0'</li>
+  <li> implementation 'id.zelory:compressor:2.0.0'</li>
+  <li>apply plugin: 'com.google.gms.google-services'</li>
+  <li>classpath 'com.google.gms:google-services:3.1.1' ( Gradle Project )</li>
+</ol> 
   
 <a name="git_firebaseLogin"><h3>FirebaseDatabaseModule.class Fonksiyonlarının Bilgileri</h3></a>
 <ul>
