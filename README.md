@@ -54,6 +54,15 @@
     <ul><li><b>Kişiye ait toplam yapılmış KM değerini veritabanında ilgili alanda günceler.Aldığı parametreler: uid,km olmak üzere hepsi String idir.</b></li></ul></li>
     <li><b> upload_profilePicture() fonksiyonu</b>
     <ul><li><b>Kişiye ait resimi Storage kısmına yükler ve veritabanında kişinin ilgili alanlarına resim linklerini günceller.Aldığı parametreler: String olarak uid ve Uri nesnesi olarak resultUri idir.</b></li></ul></li>
+    <li><b>push_friend_request() fonksiyonu</b>
+    <ul><li><b>Arkadaşlık isteği işlemi tetiklendiğinde veritabanının ilgili alanlarını günceller/oluşturur.Aldığı parametreler:
+      gonderen_kisi_uid ve gonderilen_kisi_uid olmak üzere hepsi String idir.</b></li></ul></li>
+     <li><b>cancel_friend_request() fonksiyonu</b>
+    <ul><li><b>Arkadaşlık isteği işlemi iptal edildiğinde veritabanının ilgili alanlarını siler.Aldığı parametreler:
+      gonderen_kisi_uid ve gonderilen_kisi_uid olmak üzere hepsi String idir.</b></li></ul></li>
+      <li><b>accept_friend_request() fonksiyonu</b>
+    <ul><li><b>Arkadaşlık isteği işlemi kabul edildiğinde veritabanının ilgili alanlarında gerekli işlemleri yapar</b><a href="chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://trello-attachments.s3.amazonaws.com/5afc790a37224ba8664efab9/5afc7c69780ce7c4ca18052c/0bed93bcec57ab0de4c4cd4812698fe2/nuelvo_veritabani.pdf"<b>(Detaylı bilgi için veritabanı yapısını gösteren pdf dosyasını inceleyiniz)</b></a><b>Aldığı parametreler:
+      gonderen_kisi_uid ve gonderilen_kisi_uid olmak üzere hepsi String idir.</b></li></ul></li>
     
 </ul>  
 
