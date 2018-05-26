@@ -27,30 +27,30 @@ public class FirebaseLoginModule {
         return currentUser;
     }
 
-    //yeni kayıt oluşturma
-    public void createNewUser(String email, String password) {
-
-        mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if(task.isSuccessful())
-                {
-                    //bilgilendirme mesajı ve ana ekrans geçiş
-                    Log.d(TAG, "Register işlemi başarılı.");
-                    FirebaseUser user = mAuth.getCurrentUser();
-                    updateUI(user);
-                }
-                else
-                {
-                    //hata mesajı göster
-                    Log.w(TAG, "Register işlemi başarısız.", task.getException());
-                    Toast.makeText(EmailPasswordActivity.this, "Kayıt Başarısız.",
-                            Toast.LENGTH_SHORT).show();
-                    updateUI(null);
-                }
-            }
-        });
-
+    // yeni kayıt oluşturma
+    private void createAccount(String email, String password) {
+        Log.d(TAG, "createAccount:" + email);
+        if (!validateForm()) {
+            return;
+        }
+        mAuth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // bilgilendirme mesajı ve ana ekrans geçiş
+                            Log.d(TAG, "Register işlemi başarılı.");
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            updateUI(user);
+                        } else {
+                            // hata mesajı göster.
+                            Log.w(TAG, "Register işlemi başarısız.", task.getException());
+                            Toast.makeText(EmailPasswordActivity.this, "Kayıt Başarısız.",
+                                    Toast.LENGTH_SHORT).show();
+                            updateUI(null);
+                        }
+                    }
+                });
     }
 
     //giriş yap
@@ -82,5 +82,27 @@ public class FirebaseLoginModule {
         mAuth.signOut();
     }
 
+    //alanlar dolu mu boş mu
+    private boolean validateForm() {
+        boolean valid = true;
+
+        String email = mEmailField.getText().toString();
+        if (TextUtils.isEmpty(email)) {
+            mEmailField.setError("Alan boş bırakılamaz.");
+            valid = false;
+        } else {
+            mEmailField.setError(null);
+        }
+
+        String password = mPasswordField.getText().toString();
+        if (TextUtils.isEmpty(password)) {
+            mPasswordField.setError("Alan boş bırakılamaz.");
+            valid = false;
+        } else {
+            mPasswordField.setError(null);
+        }
+
+        return valid;
+    }
 
 }
